@@ -10,15 +10,15 @@ function MapIdentifier(s) {
 
 {
     delete parts
-    for (i=1; i<=NF; i++) {
+    for(i=1; i<=NF; i++) {
         parts[length(parts)] = $i
     }
-    for ( i=0; i<length(parts); i++ ) {
+    for(i=0; i<length(parts); i++) {
         mapped = MapIdentifier(parts[i])
         if(i)
             output = output " " mapped
         else
             output = mapped
-    }
+    } 
     print output
 }
