@@ -1,0 +1,2 @@
+ReadLn UserName
+WriteLn "Hello, $UserName!"
