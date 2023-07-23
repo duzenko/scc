@@ -1,0 +1,6 @@
+ReadLn UserName
+if "$UserName"
+    WriteLn "Hello, $UserName!"
+else
+    WriteLn "Hello, World!"
+fi
